@@ -1,6 +1,8 @@
 using ConvertAgeToDays;
 using FindingNemo;
 using BarbecueSkewers;
+using JohnnyProgress;
+using Socks;
 
 namespace test;
 
@@ -38,5 +40,22 @@ public class UnitTest
                                                                                     "--o---",
                                                                                     "-o-----o---x--",
                                                                                     "--o---o-----" }));
+    }
+
+    [TestMethod]
+    public void isJohnnyMakingProgressTest()
+    {
+        Assert.AreEqual(2, makingProgress.isJohnnyMakingProgress([3, 4, 1, 2]));
+        Assert.AreEqual(3, makingProgress.isJohnnyMakingProgress([10, 11, 12, 9, 10]));
+        Assert.AreEqual(1, makingProgress.isJohnnyMakingProgress([6, 5, 4, 3, 2, 9]));
+        Assert.AreEqual(0, makingProgress.isJohnnyMakingProgress([9, 9]));
+    }
+
+    [TestMethod]
+    public void pairsOfSocksTest()
+    {
+        Assert.AreEqual(1, SockPairs.sockPairs("AA"));
+        Assert.AreEqual(2, SockPairs.sockPairs("ABABC"));
+        Assert.AreEqual(4, SockPairs.sockPairs("CABBACCC"));
     }
 }
