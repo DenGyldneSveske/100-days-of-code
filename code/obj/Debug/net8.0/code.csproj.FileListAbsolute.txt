@@ -12,3 +12,4 @@ C:\Users\rasmu\Desktop\100-days-of-code\code\obj\Debug\net8.0\refint\code.dll
 C:\Users\rasmu\Desktop\100-days-of-code\code\obj\Debug\net8.0\code.pdb
 C:\Users\rasmu\Desktop\100-days-of-code\code\obj\Debug\net8.0\code.genruntimeconfig.cache
 C:\Users\rasmu\Desktop\100-days-of-code\code\obj\Debug\net8.0\ref\code.dll
+c:\Users\rasmu\Desktop\100-days-of-code\code\obj\Debug\net8.0\code.sourcelink.json

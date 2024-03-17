@@ -115,3 +115,4 @@ c:\Users\rasmu\Desktop\100-days-of-code\test\obj\Debug\net8.0\refint\test.dll
 c:\Users\rasmu\Desktop\100-days-of-code\test\obj\Debug\net8.0\test.pdb
 c:\Users\rasmu\Desktop\100-days-of-code\test\obj\Debug\net8.0\test.genruntimeconfig.cache
 c:\Users\rasmu\Desktop\100-days-of-code\test\obj\Debug\net8.0\ref\test.dll
+c:\Users\rasmu\Desktop\100-days-of-code\test\obj\Debug\net8.0\test.sourcelink.json
