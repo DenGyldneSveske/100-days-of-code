@@ -3,6 +3,7 @@ using FindingNemo;
 using BarbecueSkewers;
 using JohnnyProgress;
 using Socks;
+using NextPrimeNumber;
 
 namespace test;
 
@@ -57,5 +58,13 @@ public class UnitTest
         Assert.AreEqual(1, SockPairs.sockPairs("AA"));
         Assert.AreEqual(2, SockPairs.sockPairs("ABABC"));
         Assert.AreEqual(4, SockPairs.sockPairs("CABBACCC"));
+    }
+
+    [TestMethod]
+    public void findNextPrimeTest()
+    {
+        Assert.AreEqual(13, NextPrime.findNextPrime(12));
+        Assert.AreEqual(29, NextPrime.findNextPrime(24));
+        Assert.AreEqual(11, NextPrime.findNextPrime(11));
     }
 }

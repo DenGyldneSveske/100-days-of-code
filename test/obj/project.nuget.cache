@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZjVXjf0h8nOyHIsaMwKJ1Hyvj9p1+wIoHJnF0huQ5Aqwk/YUJcsXASZ9pducmhiwKKZ96XYvHqVQZKwlyqqaRA==",
+  "dgSpecHash": "/5uPBnZn+4RB+U0yf1wijoAd0Gyk/UFV8/4l4Wro/Ti29TqxbWLXk+PeqM56MZ++C0F3CKrHBpQT5SptDDbtaA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\test.csproj",
+  "projectFilePath": "C:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\rasmu\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.codecoverage\\17.8.0\\microsoft.codecoverage.17.8.0.nupkg.sha512",
