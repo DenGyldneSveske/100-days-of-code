@@ -1018,11 +1018,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\test.csproj",
+      "projectUniqueName": "c:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\test.csproj",
       "projectName": "test",
-      "projectPath": "C:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\test.csproj",
+      "projectPath": "c:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\test.csproj",
       "packagesPath": "C:\\Users\\rasmu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\obj\\",
+      "outputPath": "c:\\Users\\rasmu\\Desktop\\100-days-of-code\\test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rasmu\\AppData\\Roaming\\NuGet\\NuGet.Config",

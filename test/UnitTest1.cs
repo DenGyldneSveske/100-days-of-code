@@ -4,6 +4,7 @@ using BarbecueSkewers;
 using JohnnyProgress;
 using Socks;
 using NextPrimeNumber;
+using SortedArray;
 
 namespace test;
 
@@ -66,5 +67,11 @@ public class UnitTest
         Assert.AreEqual(13, NextPrime.findNextPrime(12));
         Assert.AreEqual(29, NextPrime.findNextPrime(24));
         Assert.AreEqual(11, NextPrime.findNextPrime(11));
+    }
+
+    [TestMethod]
+    public void mergeSortedArrayTest()
+    {
+        CollectionAssert.AreEqual(new int[] { 1, 2, 2, 3, 5, 6 }, MergeSortedArray.mergeArray([1, 2, 3, 0, 0, 0], [2, 5, 6]));
     }
 }

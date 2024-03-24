@@ -1,4 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using NextPrimeNumber;
+using SortedArray;
 
 Console.WriteLine("Hello, World!");
+
+
+
