@@ -5,6 +5,7 @@ using JohnnyProgress;
 using Socks;
 using NextPrimeNumber;
 using SortedArray;
+using LetterCombinations;
 
 namespace test;
 
@@ -73,5 +74,13 @@ public class UnitTest
     public void mergeSortedArrayTest()
     {
         CollectionAssert.AreEqual(new int[] { 1, 2, 2, 3, 5, 6 }, MergeSortedArray.mergeArray([1, 2, 3, 0, 0, 0], [2, 5, 6]));
+    }
+
+    [TestMethod]
+    public void letterCombinationsTest()
+    {
+        CollectionAssert.AreEqual(new string[] { "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" }, CreateLetterCombinations.letterCombinations("23"));
+        CollectionAssert.AreEqual(new string[] { "a", "b", "c" }, CreateLetterCombinations.letterCombinations("2"));
+        CollectionAssert.AreEqual(new string[] { }, CreateLetterCombinations.letterCombinations(""));
     }
 }
