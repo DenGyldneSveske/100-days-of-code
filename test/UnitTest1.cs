@@ -83,4 +83,10 @@ public class UnitTest
         CollectionAssert.AreEqual(new string[] { "a", "b", "c" }, CreateLetterCombinations.letterCombinations("2"));
         CollectionAssert.AreEqual(new string[] { }, CreateLetterCombinations.letterCombinations(""));
     }
+
+    [TestMethod]
+    public void trappedWaterTest()
+    {
+        Assert.AreEqual(6, TrappedWater.TrappedWater.trappedWater(new int[] { 0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1 }));
+    }
 }
